@@ -39,6 +39,11 @@ a.link {
 }
 
 
+.container1_left {
+    width: 40%;
+}
+
+
 .box {
     display: flex;
     align-items: flex-start; /* ← stretchを防ぐ */
