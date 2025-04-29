@@ -39,16 +39,6 @@ a.link {
 }
 
 
-.container1_left {
-    width: 40%;
-}
-
-.container_right {
-    width: 60%;
-    display: flex;
-    flex-directioin: column;
-    gap: 20px;
-}
 
 
 .box {
