@@ -50,11 +50,9 @@ a.link {
 .img_icon {
     width:  50px;
     height: auto; /*高さを画像の比率に合わせる*/
-    padding-top:30px;
     margin-right: 30px;
     opacity: 70%;
     display: block; /* ← inlineの影響を防ぐ */
-    align-self: flex-start; /*画像の高さが伸びるのを防止*/
 }
 
 
