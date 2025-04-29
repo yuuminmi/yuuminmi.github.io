@@ -41,6 +41,7 @@ a.link {
 
 .box {
     display: flex;
+    align-items: flex-start; /* ← stretchを防ぐ */
     margin-top: 30px;
 }
 
@@ -52,6 +53,7 @@ a.link {
     padding-top:30px;
     margin-right: 30px;
     opacity: 70%;
+    display: block; /* ← inlineの影響を防ぐ */
     align-self: flex-start; /*画像の高さが伸びるのを防止*/
 }
 
