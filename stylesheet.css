@@ -63,7 +63,7 @@ a.link {
     flex-wrap: wrap;
 }
 
-.img_group img_icon {
+.img_group .img_icon {
     width: 50px;
     height: auto;
     margin-right: 10px;
