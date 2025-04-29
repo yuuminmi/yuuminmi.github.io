@@ -39,12 +39,10 @@ a.link {
 }
 
 
-
 .box {
     display: flex;
     margin-top: 30px;
 }
-
 
 
 /*画像の設定*/
@@ -56,7 +54,16 @@ a.link {
 }
 
 
-
+.categoly {
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background:#F6F1E3;
+    border-radius:100%;
+    margin-right: 30px;
+}
 
 .categoly:hover {
     background-color: #E46145;
