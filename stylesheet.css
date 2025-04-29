@@ -38,8 +38,13 @@ a.link {
     padding: 20px 10%;
 }
 
+.container1_left {
+    width: 40%; /* 40% of the screen width */
+}
 
-
+.container_right {
+    width: 60%; /* 60% of the screen width */
+}
 
 .box {
     display: flex;
