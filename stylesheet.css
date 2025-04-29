@@ -56,6 +56,20 @@ a.link {
 }
 
 
+.img_group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img_group img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
 .categoly {
     flex-shrink: 0;
     width: 100px;
