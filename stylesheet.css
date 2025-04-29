@@ -32,19 +32,13 @@ a.link {
 
 
 /*コンテンツ配置*/
-.container{
+.container {
     display: flex;
     flex-wrap: wrap;
     padding: 20px 10%;
 }
 
-.container1_left {
-    width: 40%;
-}
 
-.container_right {
-    width: 60%;
-}
 
 .box {
     display: flex;
@@ -62,16 +56,7 @@ a.link {
 }
 
 
-.categoly {
-    flex-shrink: 0;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    line-height: 100px;
-    background:#F6F1E3;
-    border-radius:100%;
-    margin-right: 30px;
-}
+
 
 .categoly:hover {
     background-color: #E46145;
@@ -85,7 +70,6 @@ a.link {
       height: 2px;
       border-width: 0;
       background-image: linear-gradient( 135deg, #E46145 20%, #3ed6db 100%);
-
       margin-right: 30px;
   }
 
